@@ -26,4 +26,8 @@ def startGame():
 	#set up initial board
 
 def updateBoard(move): 
-	#update the board
+	#update the board 
+
+def getLocation(loc): 
+	#translate matrix coordinates to algebraic notation
+
