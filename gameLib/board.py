@@ -10,16 +10,9 @@ turn, and one of the draw rules).
 
 class board(object): 
 	def __init__(self): 
-		self.board = [
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0],
-		[0,0,0,0,0,0,0,0]
-		]
+		self.board = range(0,63)
+		#row = index / 8 
+		#col = index % 8
 		self.turns = 0
 
 def startGame(): 
