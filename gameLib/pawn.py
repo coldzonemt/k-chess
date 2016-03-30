@@ -3,10 +3,16 @@ class pawn(object):
 		self.points = 1
 		self.row = None
 		self.col = None
+		self.hasMoved = False #Certain pieces have special first moves
 		
-	def updateLocation(self, row, col): 
-		#Optional first move 
+	def move(self, row, col): 
+		#determine current location
 
-		#Second move
+		#check if new location is valid 
+
+		#update location?  
+		
+
+		
 
 	

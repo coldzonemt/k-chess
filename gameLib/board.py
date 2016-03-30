@@ -10,17 +10,19 @@ turn, and one of the draw rules).
 
 class board(object): 
 	def __init__(self): 
-		self.board = range(0,63)
+		self.board = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+		#self.board = range(0,63)
 		#row = index / 8 
 		#col = index % 8
 		self.turns = 0
 
 def startGame(): 
-	#set up initial board
+	#set up initial board using FEN strings: 
+
 
 def updateBoard(move): 
-	#update the board 
+	#update the board with new FEN string
 
 def getLocation(loc): 
-	#translate matrix coordinates to algebraic notation
+	#translate FEN string to algebraic notation
 
